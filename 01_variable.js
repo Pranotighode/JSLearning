@@ -23,3 +23,13 @@ console.log(height);
 height = "6.2 feet"; // update
 
 console.log(height);
+
+num1=100
+num2=200
+console.log("========before swap======");
+console.log(num1,num2);
+temp=num1;
+num1=num2;
+num2=temp;
+console.log("========after swap======");
+console.log(num1,num2);
